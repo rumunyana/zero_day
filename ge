@@ -1,0 +1,4 @@
+#!/bin/bash
+echo -e “one\ntwo\nthree\nfour\nfive”
+echo -e “one\ntwo\nthree\nfour\nfive” > $(date +%F)_file.txt
+
