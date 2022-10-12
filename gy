@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 echo "file name"
-read  what name
-
-touch (echo " new_file")
+read  What is the file name
 
 echo "The file name is"
