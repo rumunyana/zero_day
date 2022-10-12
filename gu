@@ -2,5 +2,7 @@
 echo "Type a phrase"
 read user_phrase
 
-word_count=$(echo $user_phrase | wc -w)
+word_count=$(echo $user_phrase | wc )
 space_count=$(expr length "$user_phrase" - length `echo "$user_phrase" | wc -c)
+echo "The number of words is $word_count"
+echo "The number of white spaces is $space_count"
