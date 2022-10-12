@@ -1,0 +1,9 @@
+#!/bin/bash
+echo “enter the phrase: “
+read text
+word=$(echo -n “$text” | wc -w)
+space=$(expr length "$text" - length `echo "$text" | sed "s/ //g"`)
+
+echo “the nbr of word are : $word”
+echo “the nbr of whale spaces are : $space”
+
