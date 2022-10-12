@@ -3,4 +3,4 @@ echo "Type a phrase"
 read user_phrase
 
 word_count=$(echo $user_phrase | wc -w)
-space_count=$(expr length "$user_phrase" - length 'echo "$user_phrase" | sed "s/ //g"`)
+space_count=$(expr length "$user_phrase" - length `echo "$user_phrase" | wc -c)
