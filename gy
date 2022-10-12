@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 echo "file name"
 read  What is the file name
- name= print "read"
+ name= echo $read
 
  echo "The file name is : $name"
