@@ -1,2 +1,0 @@
-#!/bin/bash
-printf "%s\n" "one" "two" "three" "four" "five" | tee $(date +%F)-file.txt

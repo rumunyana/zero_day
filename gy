@@ -1,0 +1,5 @@
+#!/bin/bash
+echo" new_file"
+read what name
+
+touch (echo " new_file")
